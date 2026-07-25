@@ -1,5 +1,5 @@
 ### TLS root certs and non-root user
-FROM ubuntu:focal-20220113@sha256:669e010b58baf5beb2836b253c1fd5768333f0d1dbcb834f7c07a4dc93f474be AS ubuntu
+FROM ubuntu:focal-20250404@sha256:8feb4d8ca5354def3d8fce243717141ce31e2c428701f6682bd2fafe15388214 AS ubuntu
 
 RUN \
   # Note that the lack of a "lock" mechanism for apt dependencies
