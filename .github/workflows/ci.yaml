@@ -22,7 +22,7 @@ jobs:
       run: go test ./... -race -covermode=atomic -coverprofile=coverage.txt
 
     - name: Build binaries and Docker image with GoReleaser
-      uses: goreleaser/goreleaser-action@v2
+      uses: goreleaser/goreleaser-action@v7
       with:
         args: release --snapshot --skip-publish
 
